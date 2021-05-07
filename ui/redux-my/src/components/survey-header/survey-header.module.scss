@@ -1,0 +1,21 @@
+.survey-header {
+  width: 100%;
+  display: flex;
+
+  .number,
+  .right-answer,
+  .button {
+    width: 10%;
+    padding: 5px;
+  }
+
+  .question,
+  .answers {
+    width: 35%;
+    padding: 5px;
+  }
+}
+
+.colored-row {
+  background-color: #f9f9f9;
+}

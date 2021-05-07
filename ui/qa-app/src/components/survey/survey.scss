@@ -1,0 +1,17 @@
+.survey-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  .checkbox, .right-answer, .delete {
+    width: 10%;
+  }
+
+  .question, .answers {
+    width: 35%;
+  }
+}
+
+.colored {
+  background-color: #f5f5f5;
+}
